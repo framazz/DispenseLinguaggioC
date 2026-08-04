@@ -1,6 +1,6 @@
 /*
  * File: menuSwitch.c
- * Scopo: Mostrare l'uso dello switch-case con un menu a scelta intera
+ * Mostrare l'uso dello switch-case con un menu a scelta intera
  */
 #include <stdio.h>
 

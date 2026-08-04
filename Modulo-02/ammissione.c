@@ -1,6 +1,6 @@
 /*
  * File: ammissione.c
- * Scopo: Determinare il superamento di una prova in base al punteggio (0-100)
+ * Determinare il superamento di una prova in base al punteggio (0-100)
  */
 #include <stdio.h>
 

@@ -12,7 +12,7 @@ int main(void) {
 
     for (i = 0; i < R; i++) {       // Ciclo esterno (righe)
         for (j = 0; j < C; j++) { // Ciclo interno (colonne)
-            printf("* ");
+            printf("* "); // Stampo ciascun elemento della riga corrente
         }
         printf("\n"); // A capo dopo ogni riga completa
     }

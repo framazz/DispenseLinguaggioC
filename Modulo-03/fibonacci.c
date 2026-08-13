@@ -4,7 +4,7 @@
  */
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int n; // Numero di elementi della sequenza da visualizzare
     int f1 = 0; // Primo numero e precedente di f2, corrispondente a Fₙ₋₂
     int f2 = 1; // Secondo numero e precedente di fn, corrispondente a Fₙ₋₁

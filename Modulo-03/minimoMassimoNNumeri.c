@@ -33,7 +33,10 @@ int main(void) {
         // Controllo se devo aggiornare il minimo
         if (num < min) {
             min = num;
-        } else if (num > max) { // o il massimo
+        }
+
+        // Controllo se devo aggiornare il massimo
+        if (num > max) {
             max = num;
         }
     }

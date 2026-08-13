@@ -23,7 +23,6 @@ int main(void) {
 
     // Finché posso procedere
     while (c != '#') {
-
         // Controllo se il carattere è una cifra
         if (c >= '0' && c <= '9') {
             numCar++; // Ho trovato un carattere accettabile
@@ -40,9 +39,15 @@ int main(void) {
                     if (!trovata || c < min) {
                         trovata = true;
                         min = c;
+                    }
             }
         }
-    };
+        
+        // Chiedo il carattere successivo
+        printf("Immettere un carattere alfanumerico, # per terminare\t");
+        scanf("%c", &c);
+        while (getchar() != '\n');
+    }
 
     // Se la vocale minima esiste, la mostro
     if (trovata) {

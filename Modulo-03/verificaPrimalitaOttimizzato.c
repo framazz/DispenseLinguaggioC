@@ -10,7 +10,7 @@
 
 int main(void) {
     int n; // Numero intero positivo
-    int i; // Indice per il ciclo for
+    int i; // Variabile di controllo del ciclo while
     bool primo; // Flag per la risposta
 
     // Chiedo N

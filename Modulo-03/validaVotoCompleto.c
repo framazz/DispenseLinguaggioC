@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int voto; // Il voto da validare
     int esitoLettura; // Valore di ritorno della scanf
     int carattere; // Il carattere per pulire il buffer
